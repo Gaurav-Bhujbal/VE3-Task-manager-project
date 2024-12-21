@@ -18,7 +18,7 @@ A RESTful API built with Node.js, Express, and SQLite for managing user tasks. T
     1.clone the repository:
         • git clone https://github.com/Gaurav-Bhujbal/VE3-Task-manager-project.git
     2.Directory:
-        • cd task-manager
+        • cd VE3-Task-manager-project
     3.Install dependencies:
         • npm install
     4.	Run the server:
