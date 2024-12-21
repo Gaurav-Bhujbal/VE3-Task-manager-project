@@ -15,12 +15,13 @@ A beginner-friendly RESTful API built with Node.js, Express, and SQLite for mana
        • Uses open() method to connect to the SQLite database.
 
 ## Installation
-
-    1.Directory:
+    1.clone the repository:
+        • git clone https://github.com/Gaurav-Bhujbal/VE3-Task-manager-project.git
+    2.Directory:
         • cd task-manager
-    2.Install dependencies:
+    3.Install dependencies:
         • npm install
-    3.	Run the server:
+    4.	Run the server:
         • node index.js
         • The server will start at: http://localhost:3000.
 
