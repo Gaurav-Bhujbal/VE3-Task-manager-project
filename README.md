@@ -1,6 +1,6 @@
 ## Task Management API
 
-A beginner-friendly RESTful API built with Node.js, Express, and SQLite for managing user tasks. This API includes authentication using JSON Web Tokens (JWT) and provides CRUD operations for tasks.
+A RESTful API built with Node.js, Express, and SQLite for managing user tasks. This API includes authentication using JSON Web Tokens (JWT) and provides CRUD operations for tasks.
 
 ## Features
 
