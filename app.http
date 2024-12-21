@@ -1,0 +1,58 @@
+
+
+POST http://localhost:3000/auth/register/
+Content-Type: application/json
+
+{
+    "username" : "testUser",
+    "password" : "pass123"
+}
+
+###
+
+POST http://localhost:3000/auth/login/
+Content-Type: application/json
+
+{
+    "username" : "Gaurav",
+    "password" : "12345678"
+}
+
+###
+
+GET http://localhost:3000/tasks
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkdhdXJhdiIsImlhdCI6MTczNDc4NDk2OCwiZXhwIjoxNzM0Nzg4NTY4fQ.qv0XBKCdKiGQ_d3u7gvxBxLqdASE2U9_yQzhPEYHzms
+Content-Type: application/json
+
+
+###
+
+POST http://localhost:3000/tasks
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkdhdXJhdiIsImlhdCI6MTczNDc4NDk2OCwiZXhwIjoxNzM0Nzg4NTY4fQ.qv0XBKCdKiGQ_d3u7gvxBxLqdASE2U9_yQzhPEYHzms
+Content-Type: application/json
+
+{
+    "title" : "Learn HTML",
+    "description" : "Learn HTML elements",
+    "status" : "pending"
+}
+
+###
+
+GET http://localhost:3000/tasks/1
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkdhdXJhdiIsImlhdCI6MTczNDc4NDk2OCwiZXhwIjoxNzM0Nzg4NTY4fQ.qv0XBKCdKiGQ_d3u7gvxBxLqdASE2U9_yQzhPEYHzms
+Content-Type: application/json
+
+###
+PUT http://localhost:3000/tasks/1
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkdhdXJhdiIsImlhdCI6MTczNDc4NDk2OCwiZXhwIjoxNzM0Nzg4NTY4fQ.qv0XBKCdKiGQ_d3u7gvxBxLqdASE2U9_yQzhPEYHzms
+Content-Type: application/json
+
+{
+    "status" : "completed"
+}
+
+###
+DELETE  http://localhost:3000/tasks/4
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkdhdXJhdiIsImlhdCI6MTczNDc4NDk2OCwiZXhwIjoxNzM0Nzg4NTY4fQ.qv0XBKCdKiGQ_d3u7gvxBxLqdASE2U9_yQzhPEYHzms
+Content-Type: application/json
